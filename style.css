@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-width: 1500px;
+    padding: 454px;
+    background-color:#003F5C;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    grid-auto-rows: 200px;
+
+    
+}
+.item{
+    background-color: violet;
+    text-align: center;
+}
+#item1{
+  grid-column: 1 / span 6;
+  background-image: 
+  url(https://cdn.futura-sciences.com/sources/images/actu/systeme-solaire-missions-soleil.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200%;
+}
+#item2{
+    grid-column: 1 / span 2;
+    background-image: 
+  url(https://scx1.b-cdn.net/csz/news/800a/2015/whatsimporta.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#item3{
+    grid-column: 3 / span 4;
+}
+#item4{
+    grid-column: 1 / span 4;
+    grid-row:3/4;
+}
+#item5{
+    grid-column: 5/span 2;
+    grid-row: 3/ 5;
+}
+#item6{
+    grid-column: 1/ span 2;
+    
+}
+#item7{
+    grid-column: 3/ span 2;
+    
+}
+#item8{
+    grid-column: 1/ span 3;
+}
+#item9{
+    grid-column: 4/ span 3;
+}
